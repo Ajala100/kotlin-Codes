@@ -8,7 +8,7 @@ fun main() {
     var largestNumber = 0
     var count = 0
     while (count < 3){
-        println("Enter Number")
+        println("Enter Valid Integer")
         var number = input.nextInt()
         if(number > largestNumber) largestNumber = number
         count++
